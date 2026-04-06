@@ -1,0 +1,6 @@
+<svg width="520" height="420" viewBox="0 0 520 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="520" height="420" rx="32" fill="#0d1117" />
+  <rect x="140" y="80" width="240" height="200" rx="24" fill="#f97316" fill-opacity="0.2" />
+  <path d="M180 80C180 50 340 50 340 80V120H180V80Z" fill="#f97316" fill-opacity="0.6" />
+  <text x="60" y="360" fill="#f97316" font-family="sans-serif" font-size="28" letter-spacing="6">BRONZE FIRE</text>
+</svg>

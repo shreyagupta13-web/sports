@@ -1,0 +1,21 @@
+{
+  "name": "SG Sports Club",
+  "short_name": "SG Sports",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080c10",
+  "theme_color": "#b5ff2d",
+  "description": "The official digital arena for SG Sports Club.",
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
