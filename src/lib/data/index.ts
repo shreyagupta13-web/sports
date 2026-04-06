@@ -7,10 +7,12 @@ import type { NewsArticle } from "@/types/news";
 import type { Player, PlayerSkill, PlayerStat } from "@/types/player";
 import type { Team } from "@/types/team";
 
-async function safeQuery<T>(
-  query: Promise<{ data: T | null; error: { message: string } | null }>,
-  fallback: T
-) {
+type QueryResult<T> = {
+  data: T | null;
+  error: { message: string } | null;
+};
+
+async function safeQuery<T>(query: PromiseLike<QueryResult<T>>, fallback: T) {
   try {
     const { data, error } = await query;
     if (error || !data) {

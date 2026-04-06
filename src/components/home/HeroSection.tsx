@@ -44,7 +44,7 @@ export function HeroSection() {
         <Reveal delay={0.2} className="relative">
           <div className="relative overflow-hidden rounded-[32px] border border-border bg-bg-secondary/60 p-4">
             <Image
-              src="/images/hero/cricket.svg"
+              src="https://shreya1313.s3.eu-north-1.amazonaws.com/artistic-frames-balFAEulzs8-unsplash.jpg"
               alt="SG Sports stadium hero"
               width={640}
               height={480}
